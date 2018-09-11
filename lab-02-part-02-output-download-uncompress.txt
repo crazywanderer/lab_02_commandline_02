@@ -18,9 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
-
-
+hello
 ==========
 2. Type:
 
@@ -28,9 +26,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
-
-
+hello there
 ==========
 3. Type:
 
@@ -38,16 +34,12 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
-
-
+> 
 ==========
 4. Uh-oh... we're stuck!
 
 Type [CTRL + C] to get your prompt back.
 ----------
-
-
 
 ==========
 5. Say good mornin' again with quotes!
@@ -56,9 +48,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
-
-
+good mornin'
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
 
@@ -66,16 +56,13 @@ $ echo *
 
 What happens?
 ----------
-
-
-
+It listed all the dictories in my home folder on one line
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
 
 Write the command that you used below:
 ----------
-
-
+clear
 
 ==========
 We're going to practice downloading files from a web site.  We'll use this practice to download more lab materials!
@@ -87,8 +74,12 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
-
-
+HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 ==========
 9. And again.  This time, add www to the URL.
@@ -98,32 +89,25 @@ $ curl www.google.com
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
 
-
-
 ==========
 10. That's great, but what if I want to save the file?  What flag/option and option argument would I use to download the page to a file called google.html?  Run it to download the URL www.google.com.
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
 
-
-
 ==========
 11. Now let's download the lab file for this homework.  First, figure out what directory you're in.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
-
-
+pwd
+/Users/edwin.bishop18
 ==========
 12. If you're not in your home directory, change to it (use the shortcut).
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
-
-
+cd ~
 ==========
 13. So... the lab materials are located at this url:
 
@@ -137,8 +121,6 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-
-
 
 ==========
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
